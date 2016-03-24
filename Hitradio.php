@@ -37,7 +37,7 @@ class Hitradio {
         } catch(Exception $e) {
             Console::write('Error: '. $e->getMessage());
             Console::line();
-            return;
+            Console::newLine();
         }
         Console::write('Songs');
         Console::line();
