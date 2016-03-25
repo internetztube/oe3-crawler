@@ -29,7 +29,7 @@ class Hitradio {
     public function init() {
         Console::newLine();
         Console::line();
-        Console::write('Hitradio OE3 "Crawler"');
+        Console::write('Hitradio OE3 "Crawler" Demo - Technologieplauscherl');
         Console::line();
         
         try {
@@ -75,7 +75,7 @@ class Hitradio {
     }
 
     private function shouldInsertSong($artist, $title, $historyLookup = 10) {
-        $query = 'SELECT id FROM (SELECT * FROM tracks LIMIT ?) as tmp WHERE artist=? AND title=?';
+        $query = 'SELECT id FROM (SELECT * FROM tracks ORDER BY id DESC LIMIT ?) as tmp WHERE artist=? AND title=?';
         $stmt = $this->db->prepare($query);
         $stmt->bind_param('iss', $historyLookup, $artist, $title);
 
