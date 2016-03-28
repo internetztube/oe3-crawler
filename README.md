@@ -1,3 +1,5 @@
 #Hitradio Ö3 Crawler
 
-@TODO
+Loads current tracks from json interface. 
+
+Used for the oe3 statistics. http://internetztbe.net
