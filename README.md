@@ -1,4 +1,4 @@
-#Hitradio Ö3 Crawler
+# Hitradio Ö3 Crawler
 
 Loads current tracks from json interface. 
 
