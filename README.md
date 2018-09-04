@@ -2,4 +2,4 @@
 
 Loads current tracks from json interface. 
 
-Used for the oe3 statistics. http://internetztube.net/oe3
+Used for the oe3 statistics. https://frederickoeberl.com/project/oe3-statistics
